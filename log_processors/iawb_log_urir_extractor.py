@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 
-# Name: IA WayBack logs URL extractor
-# Decription: Takes the path in the log as input and extracts the requested URL.
+# Name: IA WayBack logs URI-R extractor
+# Decription: Takes the path in the log as input and extracts the URI-Rs.
 #   It assumes that the 7th field of the log is supplied to the STDIN.
 #   Ignores the lines that do not look like a URL.
 #   For better canonicalization, it returns SURT form instead.
 # Requirements: The system needs python and "surt" package installed.
 # Usage:
-#     STDIN | ./iawb_log_url_extractor.py | STDOUT
-#     STDIN | ./iawb_log_url_extractor.py -q | STDOUT
+#     STDIN | ./iawb_log_urir_extractor.py | STDOUT
+#     STDIN | ./iawb_log_urir_extractor.py -q | STDOUT
 #   Errors are written to the STDERR that can be supressed using -q flag
 # Author: Sawood Alam
 
