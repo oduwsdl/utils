@@ -1,2 +1,2 @@
 # utils
-Asorted utility scripts for various tasks
+Assorted utility scripts for various tasks
