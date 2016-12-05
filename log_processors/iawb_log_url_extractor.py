@@ -2,7 +2,7 @@
 
 # Name: IA WayBack logs URL extractor
 # Decription: Takes the path in the log as input and extracts the requested URL.
-#   It assumes that the 7th field of the log is supplied on the STDIN.
+#   It assumes that the 7th field of the log is supplied to the STDIN.
 #   Ignores the lines that do not look like a URL.
 #   For better canonicalization, it returns SURT form instead.
 # Requirements: The system needs python and "surt" package installed.
