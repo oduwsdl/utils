@@ -5,5 +5,5 @@ This repository is aimed to collect assorted utility scripts for various tasks t
 * Independently runnable
 * Contain appropriate shebang and made executable if applicable
 * Properly named files and organized in appropriate directory structure
-* Contain some documentation in the header is each file to describe the purpose and usage
+* Contain some documentation in the header in each file to describe the purpose and usage
 * Do not include sensitive or private information of the group
